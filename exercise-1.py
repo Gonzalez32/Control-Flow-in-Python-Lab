@@ -12,9 +12,12 @@
 #         For example, if some_char in 'abc':
 
 letter = input('Please enter a letter from the alphabet (a-z or A-Z)').lower()
+print('=====================================')
 vowel = ['a', 'e', 'i', 'o', 'u']
 
 if letter in vowel:
     print(f'The letter {letter} is a vowel!')
+    print('===================================')
 else: 
     print(f'The letter {letter} is a consonant')
+    print('===================================')
